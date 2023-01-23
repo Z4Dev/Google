@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>Gmail</li>
+                <li>Imagens</li>
+                <li>
+                    <img src="./gfx/menuicon.svg" alt="" class="test" width="21.03px">
+                </li>
+                <li>
+                    <img src="./gfx/profile.jpg" alt="" class="profile" width="26px">
+                </li>
+            </ul>
+        </nav>
+        <div class="google_logo">
+            <img src="./gfx/logo.png" alt="Google Logo" width="272" height="92">
+        </div>
+        <div class="container_google">
+            <div class="inputback">
+                <img src="./gfx/search.svg" alt="Search logo" width="20" height="20">
+                <input type="text" id="searchinput">
+                <img src="./gfx/delete.svg" alt="Delete logo" width="24" height="24" id="delete" style="display: none;" onclick="resetinput()">
+            </div>
+            <div class="buttons_container">
+                <button type="button">Pesquisa Google</button>
+                <button type="button">Sinto-me com sorte</button>
+            </div>
+        </div>
+        <div class="space"></div>
+        <script src="./index.js"></script>
+    </body>
+</html>
